@@ -1,0 +1,16 @@
+
+
+@keyframes upDownAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .logo {
+    animation: upDownAnimation 1s infinite alternate;
+    z-index: -12;
+  }
+
